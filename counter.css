@@ -1,0 +1,55 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+#countText {
+  font-size: 18px;
+}
+
+hr {
+  width: 300px;
+  margin-left: 0;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  padding: 8px 20px;
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+#increment {
+  background-color: white;
+}
+
+#decrement {
+  background-color: lightblue;
+}
+
+#clear {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
